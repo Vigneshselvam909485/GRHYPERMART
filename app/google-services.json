@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "900048673616",
+    "project_id": "grhypermart-5ad3c",
+    "storage_bucket": "grhypermart-5ad3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900048673616:android:2f972390e8f9defca7aa55",
+        "android_client_info": {
+          "package_name": "com.justify.grhypermart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANPzvXs-EG-0vCjmK8axQjGkaQqfvA7I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

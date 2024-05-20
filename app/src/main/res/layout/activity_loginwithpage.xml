@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginwithpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="40dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/applogo2"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="25dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="410dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/mobilenumberpage"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:hint="mobilenumber"
+            android:textSize="16dp"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/mobilenopagedesing"
+            android:layout_marginHorizontal="30dp"
+            />
+        <EditText
+            android:id="@+id/passwordpage"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:hint="password"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            android:paddingStart="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/mobilenopagedesing"
+            android:layout_marginHorizontal="30dp"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/getotpbutton"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/loginpagbtn"
+            android:text="Get OTP"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="40dp">
+
+            <EditText
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/forgotpagebtns"
+                android:text="forgot Password"
+                android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="110dp"
+                android:textSize="13dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
